@@ -1,7 +1,6 @@
-﻿using BudgetApi.Dtos;
-using BudgetApi.Models;
+﻿using budget_api.Models;
 
-namespace BudgetApi.Repositories;
+namespace budget_api.Repositories;
 
 public interface ITransactionRepository
 {

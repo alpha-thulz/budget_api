@@ -1,8 +1,6 @@
-﻿using System.Text.Json.Serialization;
-using BudgetApi.Enums;
-using BudgetApi.Utils;
+﻿using budget_api.Utils;
 
-namespace BudgetApi.Models;
+namespace budget_api.Models;
 
 public class Transaction
 {

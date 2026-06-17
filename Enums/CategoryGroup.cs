@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace BudgetApi.Models;
+namespace budget_api.Enums;
 
 [JsonConverter(typeof(JsonStringEnumConverter))]
 public enum CategoryGroup

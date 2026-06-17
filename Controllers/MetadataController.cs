@@ -1,8 +1,8 @@
-﻿using BudgetApi.Dtos;
-using BudgetApi.Utils;
+﻿using budget_api.Dtos;
+using budget_api.Utils;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BudgetApi.Controllers;
+namespace budget_api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

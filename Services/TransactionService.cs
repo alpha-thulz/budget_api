@@ -1,8 +1,8 @@
-﻿using BudgetApi.Dtos;
-using BudgetApi.Models;
-using BudgetApi.Repositories;
+﻿using budget_api.Dtos;
+using budget_api.Models;
+using budget_api.Repositories;
 
-namespace BudgetApi.Services;
+namespace budget_api.Services;
 
 public class TransactionService(ITransactionRepository repository) : ITransactionService
 {

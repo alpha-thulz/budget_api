@@ -1,8 +1,7 @@
-﻿using BudgetApi.Dtos;
-using BudgetApi.Exceptions;
-using BudgetApi.Models;
+﻿using budget_api.Exceptions;
+using budget_api.Models;
 
-namespace BudgetApi.Repositories;
+namespace budget_api.Repositories;
 
 public class TransactionRepository : ITransactionRepository
 {

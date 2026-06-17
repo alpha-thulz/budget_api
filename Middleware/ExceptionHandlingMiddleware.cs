@@ -1,6 +1,6 @@
-﻿using BudgetApi.Exceptions;
+﻿using budget_api.Exceptions;
 
-namespace BudgetApi.Middleware;
+namespace budget_api.Middleware;
 
 public class ExceptionHandlingMiddleware(RequestDelegate next)
 {

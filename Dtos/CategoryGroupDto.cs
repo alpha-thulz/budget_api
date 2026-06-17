@@ -1,7 +1,7 @@
-﻿using BudgetApi.Models;
-using BudgetApi.Utils;
+﻿using budget_api.Enums;
+using budget_api.Utils;
 
-namespace BudgetApi.Dtos;
+namespace budget_api.Dtos;
 
 public record CategoryGroupDto(
     CategoryGroup Group,

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace BudgetApi.Enums;
+namespace budget_api.Enums;
 
 [JsonConverter(typeof(JsonStringEnumConverter))]
 public enum TransactionType

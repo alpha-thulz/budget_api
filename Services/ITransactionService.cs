@@ -1,7 +1,7 @@
-﻿using BudgetApi.Dtos;
-using BudgetApi.Models;
+﻿using budget_api.Dtos;
+using budget_api.Models;
 
-namespace BudgetApi.Services;
+namespace budget_api.Services;
 
 public interface ITransactionService
 {

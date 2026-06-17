@@ -1,7 +1,6 @@
-﻿using BudgetApi.Enums;
-using BudgetApi.Models;
+﻿using budget_api.Enums;
 
-namespace BudgetApi.Utils;
+namespace budget_api.Utils;
 
 public record CategoryDefinition(
     string Name,
