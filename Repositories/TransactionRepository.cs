@@ -52,9 +52,6 @@ public class TransactionRepository : ITransactionRepository
         update.UpdatedAt = dto.UpdatedAt;
         update.TransactionDate = dto.TransactionDate;
         update.CategoryDefinition = dto.CategoryDefinition;
-        // update.TransactionType = dto.TransactionType;
-        // update.Category = dto.Category;
-        // update.CategoryGroup = dto.CategoryGroup;
         
         return await Task.FromResult(dto);
     }
