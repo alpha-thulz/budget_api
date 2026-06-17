@@ -48,9 +48,6 @@ public class TransactionService(ITransactionRepository repository) : ITransactio
             UpdatedAt = DateTime.UtcNow,
             TransactionDate = dto.TransactionDate,
             CategoryDefinition = dto.CategoryDefinition,
-            // TransactionType = dto.TransactionType,
-            // CategoryGroup = dto.CategoryGroup,
-            // Category = dto.Category,
         };
 
         try
