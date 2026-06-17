@@ -31,9 +31,6 @@ public class TransactionRepository : ITransactionRepository
             Description = dto.Description,
             Amount = dto.Amount,
             CategoryDefinition = dto.CategoryDefinition,
-            // TransactionType = dto.TransactionType,
-            // Category = dto.Category,
-            // CategoryGroup = dto.CategoryGroup,
         };
 
         _transactions.Add(transaction);
