@@ -29,10 +29,7 @@ public class TransactionService(ITransactionRepository repository) : ITransactio
             Amount = dto.Amount,
             Name = dto.Name,
             TransactionDate = dto.TransactionDate,
-            CategoryDefinition = dto.CategoryDefinition,
-            // TransactionType = dto.TransactionType,
-            // CategoryGroup = dto.CategoryGroup,
-            // Category = dto.Category,
+            CategoryDefinition = dto.CategoryDefinition
         };
 
         await repository.AddTransactionAsync(transaction);
