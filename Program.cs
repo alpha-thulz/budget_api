@@ -13,7 +13,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("ProductionCors", policy =>
     {
         // Replace with your actual frontend URL(s) when deployed
-        policy.WithOrigins("https://your-frontend-domain.com") 
+        policy.WithOrigins("https://wedela.co.za") 
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
