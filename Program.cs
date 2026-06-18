@@ -41,7 +41,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    // 
+    app.MapOpenApi();
+    app.MapScalarApiReference("/docs");
 }
 else
 {
@@ -55,13 +56,6 @@ else
     
     app.UseHsts();
 }
-
-app.MapOpenApi();
-app.MapScalarApiReference(options =>
-{
-    options.WithTitle("Budget API documentation")
-        .AddServer("https://budget.wedela.co.za/", "Production");
-});
 
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
