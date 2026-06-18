@@ -57,7 +57,11 @@ else
 }
 
 app.MapOpenApi();
-app.MapScalarApiReference("/docs");
+app.MapScalarApiReference(options =>
+{
+    options.WithTitle("Budget API documentation")
+        .AddServer("https://budget.wedela.co.za/", "Production");
+});
 
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
